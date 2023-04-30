@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+}
+.navbar .nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+width: 100%;
+}
+
+
+.navbar .nav-items{
+    width: 90%;
+    margin: auto;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.navbar .apple-logo{
+    width: 50px;
+}
+
+.navbar .search{
+    width: 20px;
+}
+
+.navbar img{
+    width: 30px;
+    height: 30px;
+}
+
+.header{
+    background-color: rgb(243, 241, 241);
+    text-align: center;
+    padding: 20px
+}
+
+.header span{
+    font-size: 15px;
+}
+.heading{
+    width: 90%;
+    margin: auto;
+}
+
+.heading a{
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url('./img/iphone-13-pro.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    text-align: center;
+}
+
+.banner .banner-text{
+    padding: 8px 8px;
+}
+
+.banner h1, .banner p{
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.banner a{
+    line-height: 0px;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.banner2 {
+    background-image: url('./img/iphone-13.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    text-align: center;
+}
+.banner2 .banner-text2{
+    padding: 8px 8px;
+}
+.banner2 h1, .banner2 p{
+    font-size: 20px;
+    line-height: 5px;
+    color: white;
+}
+.banner2 a{
+    line-height: 0px;
+    font-size: 15px; 
+    margin: 10px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.banner3 {
+    background-image: url('./img/watch.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    text-align: center;
+}
+.banner3 .banner-text3{
+    padding: 7px 7px;
+}
+.banner3 h1, .banner3 p{
+    font-size: 20px;
+    line-height: 1px;
+}
+.banner3 a{
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.banner3 .apple log {
+    display: flex;
+}
+.banner4 {
+    display: flex;
+    justify-content: space-around;
+}
+.banner4 .abannertext{
+    background-image: url('./img/fitness.jpg'); width: 48%; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 45vh;
+
+}
+.banner4 .abannertext {
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.banner4 .abannertext h1, .abannertext p{
+    font-size: 10px;
+    
+
+}
+.banner4 .abannertext h1 {
+    font-size: larger;
+}
+.banner4 .bbannertext {
+    background-image: url(./img/macbook-pro.jpg); width: 48%; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.banner5 {
+    display: flex;
+    justify-content: space-around;
+    height: 45vh;
+}
+.banner5 .bta {
+    background-image: url(./img/valentine.jpg); width: 48%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100% 100%;
+}
+.banner5 .btb {
+    background-image: url(./img/arcade.jpg); width: 48%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 45vh;
+}
+.banner6 {
+    display: flex;
+    justify-content: space-around;
+}
+.banner6 .b6a {
+    background-image: url(./img/card.jpg); width: 48%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center
+}
+.banner6 .b6b {
+    background-image: url(./img/tv-plus.jpg); width: 48%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-small;
+}
+.listwords ul {
+    list-style: none;
+    font-size: x-small;
+    
+}
+.listwords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.writeup {
+    font-size:x-small
+}
+.tv-body{
+    background-color: rgb(231, 227, 227);
+}
+
+.secondnav {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.secondnav .nav-img{
+    width: 7%;
+    height: 70px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.secondnav .nav-img img{
+width: 100%;
+height: 70%;
+padding: 0%;
+}
+
+.firstbar {
+    width: 100%;
+    margin: 30px 0;
+}
+.firstbar .tv-bar{
+    width: 100%;
+}
+.firstbar .tv-bar img, .firstbar .tv2 img{
+    width: 100%;
+}
+
+.firstbar .first-text{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.firstbar .first-text h1{
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+.firstbar .first-text p{
+    font-size: 20px;
+}
+.first-cards .row1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+}
+.first-cards .col-1{
+    width: 48%;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.first-cards .col-1 img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.first-cards .col-1 .row-1 .links .buy-a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.first-cards .row2{
+    display: flex;
+    background-color: white;
+    width: 87%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.first-cards .row2 .col2{
+    text-align: center;
+    margin: auto 0;
+}
+
+.card-container{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.card-container .card-header{
+    width: 60%;
+    margin: auto;
+}
+
+.card-container .my-cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.man-text {
+    text-align: center;
+}
+.closingNav {
+    display: flex;
+}
+.card-container .card .card-text {
+    
+}
+
+.card-container .my-cards .card{
+    width: 33%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.navbar2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(179, 171, 171)
+
+}
+.navbar2 .nb2-img {
+    width: 10%;
+    height: 100px;
+    margin: 0 6px;
+    text-align: center;
+}
+.navbar2 .nb2-img img {
+    height: 30%;
+    width: 70%;
+}
+.sentence {
+    background-color: rgb(131, 128, 128);
+    font-size: smaller;
+    text-align: center;
+}
+.firstrow-text{
+   text-align: center;
+   background-color: rgb(248, 241, 241);
+        
+}
+.firstrow {
+margin: auto;
+    }
+.secondrow {
+    display: flex;
+    background-image: url(./img/display_s7.jpg); width: 50%; height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+.secondrow .secondrow-text {
+    text-align: right;
+}
